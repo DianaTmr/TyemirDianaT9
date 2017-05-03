@@ -6,7 +6,7 @@ import org.junit.Before;
 import models.*;
 
 public class ListaTest {
-
+	
 	private ListaOrdenada<Integer> l;
 
 	@Test

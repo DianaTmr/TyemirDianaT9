@@ -14,7 +14,7 @@ public class ListaOrdenada<E> extends PriorityQueue<E> {
 	public ListaOrdenada(Comparator<E> comp) {
 		super(comp);
 	}
-
+	
 	public boolean add(E elemento) throws ElementNotAllowedException, ListSizeOverflownException {
 		if (elemento != null) {
 			// Si contiene menos de 100 elementos, añade, si no lanza excepción

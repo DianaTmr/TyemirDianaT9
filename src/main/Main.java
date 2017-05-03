@@ -11,7 +11,6 @@ import models.*;
 public class Main {
 
 	public static void main(String[] args) throws ListSizeOverflownException {
-
 		ListaOrdenada<Integer> lista = new ListaOrdenada<Integer>((Integer a, Integer b) -> b - a); // Orden descendiente
 		// Añadimos elementos a la lista
 		lista.add(6424);
